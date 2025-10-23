@@ -1,11 +1,12 @@
-import Hero from "@/app/homepage/herosection";
+// import Hero from "@/app/homepage/herosection";
+import { Hero } from "./shared/components/hero";
 import { BrandSlider } from "./shared/components/brand-slider";
 import { Testimonials } from "./shared/components/testimonials";
 import { ContactForm } from "./shared/components/contact-form";
 import { ServicesSection } from "./shared/components/service-section";
 export default function Home() {
   return (
-    <div className="font-sans px-14 ">
+    <div className="font-sans md:px-14 px-4 ">
       <Hero />
       {/* services layout */}
       {/* <div className="px-4 relative">
