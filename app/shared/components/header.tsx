@@ -81,7 +81,7 @@ const Header = () => {
         <nav className="absolute top-full left-0 right-0 bg-white border-b border-gray-100 shadow-lg md:hidden">
           <div className="flex flex-col p-4 space-y-4">
             <div className="flex flex-col space-y-2">
-              <span className="text-gray-400 text-sm font-semibold uppercase">
+              <span className="text-gray-400 text-sm font-semibold ">
                 About
               </span>
               <Link
