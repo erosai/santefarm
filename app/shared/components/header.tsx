@@ -24,7 +24,7 @@ const Header = () => {
           asChild
           className="bg-foreground hover:bg-foreground/80 text-white px-6 py-2 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105"
         >
-          <Link href="/order">Order Online</Link>
+          <Link href="https://online.santefarm.com">Order Online</Link>
         </Button>
       </nav>
     </header>
